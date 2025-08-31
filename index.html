@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Artist & Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.53/build/spline-viewer.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-3d-object">
+            <div class="cube">
+                <div class="cube-face cube-front"></div>
+                <div class="cube-face cube-back"></div>
+                <div class="cube-face cube-right"></div>
+                <div class="cube-face cube-left"></div>
+                <div class="cube-face cube-top"></div>
+                <div class="cube-face cube-bottom"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Crafting Digital Experiences That Transcend Reality</h1>
+            <p class="hero-subtitle">Digital Artist & Web Developer</p>
+            <div class="hero-scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-bio">I'm a digital artist and web developer passionate about creating immersive digital experiences that blur the line between art and technology. With expertise in 3D design, interactive web development, and cutting-edge animation techniques, I transform complex ideas into stunning visual realities.</p>
+                </div>
+                <div class="about-avatar">
+                    <div class="avatar-3d">
+                        <div class="avatar-ring"></div>
+                        <div class="avatar-core"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-3d">
+                <h3 class="skills-title">Skills</h3>
+                <div class="skills-cloud">
+                    <div class="skill-item" data-skill="3D Design">3D Design</div>
+                    <div class="skill-item" data-skill="Frontend Development">Frontend Development</div>
+                    <div class="skill-item" data-skill="UI/UX Design">UI/UX Design</div>
+                    <div class="skill-item" data-skill="WebGL">WebGL</div>
+                    <div class="skill-item" data-skill="React">React</div>
+                    <div class="skill-item" data-skill="CSS Animations">CSS Animations</div>
+                    <div class="skill-item" data-skill="Three.js">Three.js</div>
+                    <div class="skill-item" data-skill="Spline">Spline</div>
+                    <div class="skill-item" data-skill="Motion Graphics">Motion Graphics</div>
+                    <div class="skill-item" data-skill="WebXR">WebXR</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="ar-gallery">
+                    <div class="project-3d-wrapper">
+                        <div class="project-3d-card">
+                            <div class="project-front">
+                                <div class="project-image-placeholder"></div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Immersive AR Gallery</h3>
+                                    <p class="project-description">Revolutionary augmented reality experience for art exhibitions</p>
+                                </div>
+                            </div>
+                            <div class="project-back">
+                                <div class="project-details">
+                                    <h4>Technologies:</h4>
+                                    <div class="tech-badges">
+                                        <span class="tech-badge">WebXR</span>
+                                        <span class="tech-badge">Three.js</span>
+                                        <span class="tech-badge">React</span>
+                                        <span class="tech-badge">WebGL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="ecommerce">
+                    <div class="project-3d-wrapper">
+                        <div class="project-3d-card">
+                            <div class="project-front">
+                                <div class="project-image-placeholder"></div>
+                                <div class="project-info">
+                                    <h3 class="project-title">E-commerce Platform</h3>
+                                    <p class="project-description">Next-generation shopping experience with 3D product visualization</p>
+                                </div>
+                            </div>
+                            <div class="project-back">
+                                <div class="project-details">
+                                    <h4>Technologies:</h4>
+                                    <div class="tech-badges">
+                                        <span class="tech-badge">React</span>
+                                        <span class="tech-badge">Node.js</span>
+                                        <span class="tech-badge">MongoDB</span>
+                                        <span class="tech-badge">Spline</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="data-viz">
+                    <div class="project-3d-wrapper">
+                        <div class="project-3d-card">
+                            <div class="project-front">
+                                <div class="project-image-placeholder"></div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Interactive Data Visualization</h3>
+                                    <p class="project-description">Complex data transformed into engaging 3D interactive experiences</p>
+                                </div>
+                            </div>
+                            <div class="project-back">
+                                <div class="project-details">
+                                    <h4>Technologies:</h4>
+                                    <div class="tech-badges">
+                                        <span class="tech-badge">D3.js</span>
+                                        <span class="tech-badge">WebGL</span>
+                                        <span class="tech-badge">Python</span>
+                                        <span class="tech-badge">Three.js</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="banking-app">
+                    <div class="project-3d-wrapper">
+                        <div class="project-3d-card">
+                            <div class="project-front">
+                                <div class="project-image-placeholder"></div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Mobile Banking App</h3>
+                                    <p class="project-description">Secure and intuitive financial interface with motion design</p>
+                                </div>
+                            </div>
+                            <div class="project-back">
+                                <div class="project-details">
+                                    <h4>Technologies:</h4>
+                                    <div class="tech-badges">
+                                        <span class="tech-badge">React Native</span>
+                                        <span class="tech-badge">Node.js</span>
+                                        <span class="tech-badge">Framer Motion</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-spline-bg">
+            <spline-viewer url="https://prod.spline.design/ys2RzCocNqcmxuhR/scene.splinecode"></spline-viewer>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-form-section">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label class="form-label" for="name">Name</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="message">Message</label>
+                                <textarea id="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-links-section">
+                        <div class="social-links">
+                            <a href="https://github.com/username" target="_blank" class="social-link">
+                                <span class="social-icon">GitHub</span>
+                            </a>
+                            <a href="https://linkedin.com/in/username" target="_blank" class="social-link">
+                                <span class="social-icon">LinkedIn</span>
+                            </a>
+                            <a href="https://twitter.com/username" target="_blank" class="social-link">
+                                <span class="social-icon">Twitter</span>
+                            </a>
+                            <a href="mailto:hello@portfolio.com" class="social-link">
+                                <span class="social-icon">Email</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
